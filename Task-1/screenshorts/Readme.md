@@ -1,4 +1,4 @@
-# Linux Fundamentals — Week 1 (DevOps Internship)
+# **Linux Fundamentals — Week 1 (DevOps Internship)**
 
 **Davine Technologies — DevOps Internship**
 **Submitted by:** Chander Mohan Meena
@@ -34,6 +34,12 @@ ls
 cd ..
 ```
 
+------------------------------------------------------------
+
+![Directory structure](Screenshot%202026-07-24%20183413.png)
+
+------------------------------------------------------------
+
 Created a `devops/` directory containing three subdirectories: `projects`, `logs`, and `scripts`.
 
 ### 2. Create Sample Files
@@ -49,6 +55,21 @@ cd devops/logs && ls      # system.logs
 cd ../scripts && ls       # deploy.sh
 cd ../projects && ls      # main.py
 ```
+------------------------------------------------------------
+
+![Directory structure](Screenshot%202026-07-24%20183507.png)
+
+------------------------------------------------------------
+------------------------------------------------------------
+
+![Directory structure](Screenshot%202026-07-24%20183529.png)
+
+------------------------------------------------------------
+------------------------------------------------------------
+
+![Directory structure](Screenshot%202026-07-24%20183614.png)
+
+------------------------------------------------------------
 
 ### 3. Set Appropriate Permissions
 
@@ -62,6 +83,16 @@ ls -ld devops/
 
 chmod +x devops/scripts/deploy.sh
 ```
+------------------------------------------------------------
+
+![Directory structure](Screenshot%202026-07-24%20183700.png)
+
+------------------------------------------------------------
+------------------------------------------------------------
+
+![Directory structure](Screenshot%202026-07-24%20183835.png)
+
+------------------------------------------------------------
 
 - Applied `755` recursively to the `devops/` directory (owner: read/write/execute, group & others: read/execute).
 - Made `deploy.sh` executable for use as a deployment script.
@@ -74,6 +105,12 @@ zip -r devops_compressed.zip devops/
 ls -lh devops_compressed.zip
 # -rw-rw-r-- 1 kali kali 1.2K Jul 24 08:57 devops_compressed.zip
 ```
+
+------------------------------------------------------------
+
+![Directory structure](Screenshot%202026-07-24%20183925.png)
+
+------------------------------------------------------------
 
 ## Directory Structure
 
