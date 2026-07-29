@@ -51,3 +51,5 @@ git-github-practice/
 
 ##  License
 This project is for learning purposes only.
+## note :
+This readme file was just generted by copilot so the name og orignal files were different .
