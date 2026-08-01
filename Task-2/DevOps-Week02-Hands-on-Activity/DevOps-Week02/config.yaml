@@ -1,0 +1,9 @@
+app:
+  name: devops-week02
+  version: 1.0.0
+  environment: development
+server:
+  port: 5000
+  host: 0.0.0.0
+docker:
+  healthcheck_interval: 30s
